@@ -1,0 +1,20 @@
+@font-face{
+ font-family: "vazir";
+ src: url('./fonts/Vazir.eot');
+ src: url('./fonts/Vazir.eot') format('embedded-opentype'),
+ url('./fonts/Vazir.woff') format('woff'),
+ url('./fonts/Vazir.ttf') format('truetype'),
+ url('./fonts/Vazir.woff2') format('woff2');
+}
+
+body {
+    font-family: "vazir" !important;
+}
+.icon{
+    color: blue;
+    background-color: rgb(238, 237, 234);
+    display: inline-flex;
+    padding: 15px;
+    border-radius: 15px;
+    
+}
